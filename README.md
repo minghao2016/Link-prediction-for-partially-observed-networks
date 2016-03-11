@@ -1,0 +1,5 @@
+# Link prediction for partially observed networks
+
+Link prediction is one of the fundamental problems in network analysis. In many applications, notably in genetics, a partially observed network may not contain any negative examples, i.e. edges known for certain to be absent, which creates a difficulty for existing supervised learning approaches. We develop a new method which treats the observed network as a sample of the true network with different sampling rates for positive (true edges) and negative (absent edges) examples. We obtain a relative ranking of potential links by their probabilities, utilizing information on network topology as well as node covariates if available. The method relies on the intuitive assumption that if two pairs of nodes are similar, the probabilities of these pairs forming an edge are also similar. Empirically, the method performs well under many settings, including when the observed network is sparse. We apply the method to a protein-protein interaction network and a school friendship network.
+
+The matlab codes were writen by [Yunpeng Zhao](http://statistics.gmu.edu/people_pages/zhao.html).
